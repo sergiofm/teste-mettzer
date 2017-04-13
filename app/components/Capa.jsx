@@ -23,7 +23,11 @@ let Capa = React.createClass({
         let input = $(".autores").find('input:visible');
         let indice = input.index(e.target) - 1;
         let seletor = $(input[indice]).focus();
-        $(this).parent('div').remove();
+
+        // verifica se existe mais de um autor, se tiver deixa remover
+        if($(".autor").length > 1){
+          $(this).parent('div').remove();
+        }
       }
     });
   },
@@ -31,7 +35,7 @@ let Capa = React.createClass({
   //aumentar o tamanho do textarea conforme conteudo
   handleTitulo: function() {
     $(".titulo").bind("input", function(e) {
-      while( $(this).outerHeight() < this.scrollHeight + parseFloat($(this).css("borderTopWidth")) + parseFloat($(this).css("borderBottomWidth")) && $(this).height() < 500) {
+      while( $(this).outerHeight() < this.scrollHeight && $(this).height() < 500) {
         $(this).height($(this).height()+1);
       };
     });

@@ -12,7 +12,7 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
-      Capa: 'app/components/Capa.jsx',
+      Capa: 'app/components/Capa.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
