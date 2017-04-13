@@ -1,0 +1,68 @@
+{
+  "name": "teste-mettzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "karma start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AfonsoRossoni/cyberpunk-react.git"
+  },
+  "author": "Afonso Rossoni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AfonsoRossoni/cyberpunk-react/issues"
+  },
+  "dependencies": {
+    "axios": "*",
+    "bootstrap": "*",
+    "express": "^4.13.4",
+    "jquery": "*",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "browser-sync": "*",
+    "enzyme": "^2.8.1",
+    "event-stream": "*",
+    "expect": "*",
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-htmlmin": "*",
+    "gulp-jshint": "*",
+    "gulp-plumber": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-uglify": "*",
+    "gulp-watch": "*",
+    "jshint": "*",
+    "json-loader": "^0.5.4",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-mocha": "*",
+    "karma-mocha-reporter": "*",
+    "karma-sourcemap-loader": "*",
+    "karma-webpack": "*",
+    "mocha": "*",
+    "mocha-jsdom": "^1.1.0",
+    "node-sass": "*",
+    "react-addons-test-utils": "^15.5.1",
+    "react-test-renderer": "^15.5.4",
+    "run-sequence": "*",
+    "sass-loader": "*",
+    "script-loader": "*",
+    "style-loader": "*",
+    "webpack": "^2.1.0-beta.21"
+  }
+}
