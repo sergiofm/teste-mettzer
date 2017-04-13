@@ -64,6 +64,6 @@
     "sass-loader": "*",
     "script-loader": "*",
     "style-loader": "*",
-    "webpack": "^2.1.0-beta.21"
+    "webpack": "^2.1.0-beta.22"
   }
 }
